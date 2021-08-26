@@ -3,12 +3,7 @@ img {
   height: auto;
   width: auto;
 }
-.journal1 {
-  div {
-    margin-top: 80px;
-    margin-bottom: 100px;
-  }
-}
+
 p {
   text-align: justify;
 }
@@ -22,13 +17,13 @@ h1, h2, h3 {
   text-align: center;
 }
 
-h3 {
+h3,h4 {
   font-size: 40px;
   color: #929292;
 }
 
 section {
-  border: solid red;
+
 }
 
 .main-title-wrap {
@@ -51,6 +46,10 @@ section {
 
   img {
     margin: 2rem 0;
+  }
+  img{
+    height:500px;
+    width:100%;
   }
 }
 
@@ -85,7 +84,7 @@ section {
     margin-right:25px;
     margin-left:0px;
     margin-bottom:15px;
-    border:solid red;
+   
     flex: 1;  
   }
 
@@ -100,9 +99,37 @@ section {
   } 
 }
 
+.number{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+ 
+ 
+}
+.number1{
+  display:flex;
+  flex-direction:column;
+  flex:1
+
+}
+.number2{
+  display:flex;
+  flex-direction:column;
+  flex:30
+
+}
+
 .conclusion {
 
   h3 {
     justify-content: center;
+    padding:30px;
+  }
+  p{
+    font-size:30px;
+    color:#929292;
+    text-align: center;
+    margin-bottom:180px;
+    padding:30px
   }
 }

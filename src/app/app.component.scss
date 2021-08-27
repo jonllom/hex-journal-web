@@ -3,9 +3,19 @@ img {
   height: auto;
   width: auto;
 }
+.b{
+  margin-bottom:80px ;
+}
 
 p {
   text-align: justify;
+}
+.p{
+    font-size: 40px;
+    text-align:center;
+  }
+h1{
+  margin:150px;
 }
 
 h1, h2, h3 {
@@ -20,10 +30,6 @@ h1, h2, h3 {
 h3,h4 {
   font-size: 40px;
   color: #929292;
-}
-
-section {
-
 }
 
 .main-title-wrap {
@@ -84,7 +90,6 @@ section {
     margin-right:25px;
     margin-left:0px;
     margin-bottom:15px;
-   
     flex: 1;  
   }
 
@@ -93,8 +98,7 @@ section {
     height: 300px;
   }
   .d2{
-    margin-bottom:200px;
-    
+    margin-bottom:200px;   
   }
   } 
 }
@@ -103,20 +107,16 @@ section {
   display:flex;
   flex-direction:row;
   justify-content: left;
- 
- 
 }
 .number1{
   display:flex;
   flex-direction:column;
   flex:1
-
 }
 .number2{
   display:flex;
   flex-direction:column;
   flex:30
-
 }
 
 .conclusion {

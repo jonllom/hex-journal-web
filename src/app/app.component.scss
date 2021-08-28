@@ -3,6 +3,7 @@ img {
   height: auto;
   width: auto;
 }
+
 a{
   text-decoration: none;
 }
@@ -13,7 +14,11 @@ a{
 
 p{
   text-align: justify;
+  
 }
+p:hover{
+      color:#ffffff;
+    }
 
 .p{
     font-size: 40px;
@@ -22,7 +27,13 @@ p{
   
 h1{
   margin:150px;
+ 
 }
+ h1:hover{
+      color:#00ff00;
+       
+      
+    }
 
 h1, h2, h3 {
   color: #ff44ff;
@@ -61,6 +72,15 @@ h3,h4 {
     margin-top:90px ;
     
   }
+  .men :hover{
+      color:#00ff00;
+       transform:scale (1.6);
+      
+    }
+    h3:hover{
+      font-size:60px;
+    }
+   
   
 }
 

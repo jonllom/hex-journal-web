@@ -26,7 +26,7 @@ p:hover{
   }
   
 h1{
-  margin:150px;
+
  
 }
  h1:hover{
@@ -150,18 +150,7 @@ h3,h4 {
 
 }
 
-@media only screen and (max-width: 600px) {
-  .setup,.description,.charts {
-  .download {
-  
-  flex-direction: column;
- 
 
-  
-
-  } 
- }
-}
 
 .number{
   display:flex;
@@ -196,4 +185,21 @@ h3,h4 {
   .conclusion{
     color:#ffffff;
   }
+}
+
+@media only screen and (max-width: 600px) {
+.main-title-wrap,.introduction {
+  h1 {
+      font-size: 40px;
+  } 
+  h3 {
+    font-size: 20px;
+  }
+  
+} 
+  .setup,.description,.charts {
+  .download {
+  flex-direction: column;
+  } 
+ }
 }

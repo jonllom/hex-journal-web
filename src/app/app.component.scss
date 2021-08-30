@@ -57,6 +57,7 @@ h3,h4 {
   display: flex;
   flex-direction: column;
   margin-top:50px ;
+  Border:solid red;
   h1 {
     font-size: 140px;
     margin-bottom: 0;
@@ -92,6 +93,7 @@ h3,h4 {
 
 .introduction {
   margin: 2rem 0;
+  border:solid red;
 
   img {
     margin: 2rem 0;
@@ -142,6 +144,23 @@ h3,h4 {
     margin-bottom:200px;   
   }
   } 
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .setup,.description,.charts {
+  .download {
+  
+  flex-direction: column;
+ 
+
+  
+
+  } 
+ }
 }
 
 .number{

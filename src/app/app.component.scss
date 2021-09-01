@@ -2,6 +2,10 @@ img {
   max-width: 100%;
   height: auto;
   width: auto;
+  
+}
+.img {
+  
 }
 
 a{
@@ -94,20 +98,15 @@ h3,h4 {
   .men{ 
     text-shadow:12px 11px 20px #00000063;
     box-shadow:0 0 20px 0px #00000063;
-    margin-right:330px;
-    margin-left:330px;
+    margin-right:25px;
+    margin-left:25px;
   }
   .men :hover{
       color:#00ff00;  
     }
-      
+
     p{
-      font-size:20px;  
-      margin:20px;
-    } 
-    p{
-     margin-right:330px;
-     margin-left:330px;
+     
      font-size: 14px;
      text-align: center;
     } 
@@ -133,6 +132,9 @@ h3,h4 {
   }
   h1{
     padding-top:80px;
+  }
+  h3{
+    
   }
 }
 
@@ -176,6 +178,7 @@ h3,h4 {
     font-size: 14px;
     margin-top:10px;
   }
+  
   h2{
     margin-top:0px;
     text-shadow:12px 11px 20px #00000063;

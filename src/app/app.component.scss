@@ -65,6 +65,8 @@ h1, h2, h3 {
 }
 h1{
   margin-top:100px;
+  padding-top:80px;
+  
 }
 
 h3,h4 {
@@ -122,12 +124,24 @@ h3,h4 {
 .setup,.description,.charts, {
   box-shadow:0 0 20px 0px #00000063;
   margin:10px;
+  .k{
+    color:white;
+  }
+  .z{
+     background-color:#ff44ff;
+     margin:0 20px;
+    img{
+      height:300px;
+      width:100%;
+    }
+  }
   p{ 
     margin:25px;
     font-size:14px;
   }
   .con{
     font-size:20px;
+    padding-bottom:20px;
   }
   .download {
   display: flex;
@@ -138,6 +152,7 @@ h3,h4 {
   h2{
     color:white; 
   }
+
   div {
     display: flex;
     flex-direction: column;

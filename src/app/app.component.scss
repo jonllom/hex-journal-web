@@ -14,28 +14,11 @@ a{
 
 .b{
   margin-bottom:80px;
-  .d1{
-    text-align: center; 
-    margin-top:150px;
-    margin:23px;
-    
-    img{
-      height:400px;
-      width:100%;
-      box-shadow:0 0 20px 0px #00000063;
-    }
+  margin-top:50px;
+  box-shadow:0 0 20px 0px #00000063;
+  p{
+    padding-bottom: 20px;
   }
-  .d2{ 
-    text-align: center;
-    justify-content: center;
-    margin-left:20px;
-    margin-right:20px;
-    font-size: 20px;
-    p{
-      margin-bottom:50px;
-      padding-bottom:20px;
-    }
-  } 
 }
 
 p{
@@ -70,35 +53,40 @@ h1{
 }
 
 h3,h4 {
-  font-size: 40px;
+  font-size:27px;
   color: #f3f3f3;
   margin-bottom:20px;
-  margin-top:70px;
+  margin-top:20px;
 }
 
-.notice{
-  color:#f3f3f3;
-}
+
 
 .main-title-wrap  {
   display: flex;
   flex-direction: column;
   margin-top:50px;
+  color:white;
+
+  .intro{
+    margin-bottom:70px;
+  }
   h1 {
     font-size: 140px;
     margin-top: 20px;
     text-shadow:12px 11px 20px #00000063;
   }
-  a {
-    color: #929292;
-  }
+
     p{
      font-size: 14px;
      text-align: center;
     } 
-    h3{
-      margin-bottom:70px;
-    } 
+    
+    .men{
+      margin-right:60px;
+      margin-left:60px;
+      box-shadow:0 0 20px 0px #00000063;
+      
+    }
 }
 
 .introduction {
@@ -107,6 +95,7 @@ h3,h4 {
   margin-bottom:100px;
   h1{
     padding-top:80px;
+    margin-top:80px ;
   } 
   div{
     margin:20px;
@@ -121,11 +110,13 @@ h3,h4 {
   }
 }
 
-.setup,.description,.charts, {
+.setup,.description,.charts {
   box-shadow:0 0 20px 0px #00000063;
   margin:10px;
   .k{
     color:white;
+    margin-bottom: 10px;
+    
   }
   .z{
      background-color:#ff44ff;
@@ -133,6 +124,7 @@ h3,h4 {
     img{
       height:300px;
       width:100%;
+       box-shadow:0 0 20px 0px #00000063;
     }
   }
   p{ 
@@ -141,6 +133,7 @@ h3,h4 {
   }
   .con{
     font-size:20px;
+    margin-bottom: 100px;
     padding-bottom:20px;
   }
   .download {
@@ -148,11 +141,11 @@ h3,h4 {
   flex-direction: row;
   flex: 1;
   text-align: justify;
-
+  margin-top: 15px;
   h2{
-    color:white; 
+    color:white;
   }
-
+  
   div {
     display: flex;
     flex-direction: column;
@@ -160,8 +153,11 @@ h3,h4 {
     flex: 1; 
     border:solid #333333;
     background:#ff44ff;
-    box-shadow:0 0 20px 0px #00000063; 
-  }  
+    box-shadow:0 0 20px 0px #00000063;
+  } 
+  img{
+    box-shadow:0 0 20px 0px #00000063;
+  } 
   } 
 }
 
@@ -179,21 +175,6 @@ h3,h4 {
     box-shadow:0 0 20px 0px #00000063;
    }
   }
-.number{
-  display:flex;
-  flex-direction:row;
-  justify-content: left;
-  
-}
-
-.number2{
-  display:flex;
-  flex-direction:column;
-  flex:30;
-  h3{
-    font-size:30px;
-  }
-}
 
 .conclusion {
   color:#ffffff;

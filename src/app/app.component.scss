@@ -120,6 +120,7 @@ h3,h4 {
   .z{
      background-color:#ff44ff;
      margin:0 20px;
+     justify-content:100px ;
     img{
       height:300px;
       width:100%;
@@ -144,6 +145,9 @@ h3,h4 {
   
   h2{
     color:white;
+  }
+  h3{
+    font-size:60px;
   }
   
   div {
@@ -202,6 +206,8 @@ h3,h4 {
   .verify { 
     h2 {
       color:white;
+      justify-content:200px;
+      
     }
   }
 }

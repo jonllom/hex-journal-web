@@ -85,8 +85,8 @@ h3,h4 {
     } 
     
     .men{
-      margin-right:60px;
-      margin-left:60px;
+      margin-right:70px;
+      margin-left:70px;
       box-shadow:0 0 20px 0px #00000063;
       
     }
@@ -116,12 +116,18 @@ h3,h4 {
 .setup,.description,.charts {
   box-shadow:0 0 20px 0px #00000063;
   margin:10px;
+  .y{
+    img{
+      height:300px;
+      width:100%;
+      box-shadow:0 0 20px 0px #00000063;
+    }
+  }
   
   .z{
      background-color:#ff44ff;
      margin:0 20px;
-     justify-content:100px ;
-      
+     justify-content:100px;
     img{
       height:300px;
       width:100%;
@@ -143,6 +149,7 @@ h3,h4 {
   flex: 1;
   text-align: justify;
   margin-top: 15px;
+   
   img{
       height:300px;
       width:100%;
@@ -165,11 +172,7 @@ h3,h4 {
     background:#ff44ff;
     box-shadow:0 0 20px 0px #00000063;
   } 
-  set{
-
-  }
-  
-  } 
+  }  
 }
 
 .description{
@@ -193,8 +196,11 @@ h3,h4 {
     .copyright{
       font-size: 12px;
     }
+    a{
+      color:#929292;
+      font-size: 14px;
+    }
 }
-
 .setup {
   .verify { 
     h2 {
